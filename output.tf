@@ -13,3 +13,9 @@ output "pvt1_id" {
 output "pvt2_id" {
   value = module.Networking_module.pvt2_id
 }
+output "pub_sg_id" {
+  value = module.Security_module.pub_sg_id
+}
+output "pvt_sg_id" {
+  value = module.Security_module.pub_sg_id
+}
