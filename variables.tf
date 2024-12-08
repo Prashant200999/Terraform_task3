@@ -23,3 +23,8 @@ variable "pvt2_cidr_01" {
   default     = "10.0.4.0/24"
   description = "CIDR block of vpc"
 }
+variable "sg_port_pvt_01" {
+  type        = string
+  default     = 22
+  description = "port"
+}
